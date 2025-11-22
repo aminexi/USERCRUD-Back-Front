@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# User CRUD Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Java](https://img.shields.io/badge/Java-17-blue?logo=java)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/SpringBoot-3.2.2-brightgreen?logo=spring)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://reactjs.org/)
+[![Axios](https://img.shields.io/badge/Axios-1.4.0-yellow)](https://axios-http.com/)
 
-## Available Scripts
+A full-stack CRUD application built with **Spring Boot** for the backend and **React** for the frontend.  
+Users can be created, viewed, updated, and deleted via a simple web interface.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Backend (Spring Boot)**
+  - REST API for users
+  - Validation for email and age
+  - Supports **MySQL** or **MongoDB**
+  - Easy configuration via `application.properties`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend (React + Axios)**
+  - User list in a table
+  - Add, edit, delete users
+  - Responsive forms for input
+  - Communicates with Spring Boot API
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![User List](<img width="1268" height="652" alt="Screenshot 2025-11-22 145456" src="https://github.com/user-attachments/assets/48a26899-4e7d-4abe-bcc7-d47d882ed4d3" />
+) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Backend:** Java 17, Spring Boot 3.2.2, Maven, MySQL / MongoDB
+- **Frontend:** React 18, Axios
+- **Database:** MySQL or MongoDB
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Notes
+Frontend communicates with backend at http://localhost:8090.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Switching between MySQL and MongoDB is simple via dependencies and application.properties.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Axios handles all HTTP requests between React and Spring Boot.
