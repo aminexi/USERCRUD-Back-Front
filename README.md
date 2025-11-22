@@ -28,8 +28,8 @@ Users can be created, viewed, updated, and deleted via a simple web interface.
 
 ## Screenshots
 
-![User List](<img width="1268" height="652" alt="Screenshot 2025-11-22 145456" src="https://github.com/user-attachments/assets/48a26899-4e7d-4abe-bcc7-d47d882ed4d3" />
-) 
+<img width="1268" height="652" alt="Screenshot 2025-11-22 145456" src="https://github.com/user-attachments/assets/48a26899-4e7d-4abe-bcc7-d47d882ed4d3" />
+ 
 
 ---
 
